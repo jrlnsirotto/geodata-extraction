@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "geodata-extraction"
+version = "1.0.0"
+description = ""
+authors = ["José Neto <jrlnsirotto@gmail.com>"]
+readme = "README.md"
+packages = [{include = "geodata_extraction"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
+matplotlib = "^3.7.1"
+utm = "^0.7.0"
+requests = "^2.28.2"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

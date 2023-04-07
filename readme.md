@@ -1,9 +1,8 @@
 # GeoData Extraction
 
-<img align="right" width= 200 src="figures/logo.webp">
+<img align="right" width= 200 src="images/logo.webp">
 
 GeoData extraction intends to help users to download data from a certain area in a easy way. The repository is under construction and has no commercial intention.
-
 
 
 ## Main goals
@@ -23,6 +22,44 @@ GeoData extraction intends to help users to download data from a certain area in
 
 ## Premisses
 - Order of the UTM coordinates list matters
+
+## How to setup the application to run
+
+Use make command to create the virtual environment
+
+```make virtual-env```
+
+and then activate it
+
+```source .venv/bin/activate```
+
+install the dependencies
+
+```make deps```
+
+Be sure you have all the environment variable in a .env file
+
+```
+EXTRACTION_NAME = "<name-here>"
+
+ZONE = "<zone-here>"
+
+ZONE_FACTOR = "<zone-factor-here>"
+
+LETTER ="<zone-letter-here>"
+
+POSITION_LEFT_BOTTOM = "[<x-coordinate-here>,<y-coordinate-here>]"
+
+POSTION_RIGHT_UP = "[<x-coordinate-here>,<y-coordinate-here>]"
+
+GRID_NUMBER_OF_POINTS = "<number-of-point-in-one-direction>" 
+
+SAVE = "True"
+```
+
+and then, just run
+
+```make run```
 
 ## Code architecture
 
