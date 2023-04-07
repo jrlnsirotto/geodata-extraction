@@ -1,8 +1,8 @@
 # GeoData Extraction
 
-<img align="right" width= 200 src="figure/logo.webp">
+<img align="right" width= 200 src="figures/logo.webp">
 
-GeoData extraction intends to help users to download data from a certain area in a easy way.
+GeoData extraction intends to help users to download data from a certain area in a easy way. The repository is under construction and has no commercial intention.
 
 
 
